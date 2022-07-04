@@ -4,7 +4,7 @@ ext {
     PUBLISH_ARTIFACT_ID = 'zoomy'
 }
 
-apply from: "${rootDir}/scripts/publish-module.gradle"
+//apply from: "${rootDir}/scripts/publish-module.gradle"
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
